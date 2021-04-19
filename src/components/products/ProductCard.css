@@ -1,0 +1,24 @@
+.ProductCard {
+    height: 300px;
+    display: grid;
+    grid-template-rows: 2fr repeat(1fr);
+    background-color: lightseagreen;
+}
+
+.ProductCard img {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.ProductCard h3 {
+    background-color: coral;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ProductCard p {
+    background-color: lightgreen;
+    height: 100%;
+}
