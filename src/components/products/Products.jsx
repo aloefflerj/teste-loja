@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import ProductCard from './ProductCard'
 import axios from 'axios'
 
-const URL = 'http://mercado-api-mobile.herokuapp.com/produtos'
+const URL = 'https://mercado-api-mobile.herokuapp.com/produtos'
 
 class Products extends Component {
     constructor(props) {
